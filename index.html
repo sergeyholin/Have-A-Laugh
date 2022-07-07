@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--This is the Bulma cdn-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     
     <title>Text goes here</title>
 </head>
@@ -34,12 +35,16 @@
       </select>
     </div>
   </div>
-  <div class="column">Auto
-    <div id ="card1" class="card">
+  <!-- SH Changed card name -->
+  <div class="column">Chuck Norris Jokes
+    <div id ="card1" class="card" >
       <div class="card-content">
-        <div class="content">
+        <!-- SH Added id for card content -->
+        <div class="content" id="card-content1">
           Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
         </div>
+        <!-- SH Added on click to button with a function tied to it -->
+        <button class="button" onclick="chuckJoke()">Button</button>
       </div>
     </div>
   </div>
@@ -78,7 +83,7 @@
 </div>
     
 
-   
+<script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 
 
