@@ -1,5 +1,6 @@
 
 // AH created a random Pun joke function
+punny();
 function punny() {
     fetch("https://v2.jokeapi.dev/joke/Pun?type=single")
     .then(function(response){return response.json();})

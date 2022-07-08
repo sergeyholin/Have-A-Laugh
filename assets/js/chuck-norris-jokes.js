@@ -1,4 +1,5 @@
 //SH Made a random chuck joke function
+chuckNorrisJoke ();
 function chuckNorrisJoke () {
   fetch("https://api.chucknorris.io/jokes/random")
   .then(function(response){
