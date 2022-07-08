@@ -18,8 +18,8 @@ fetch("https://api.chucknorris.io/jokes/random")
 });
 }
 
-function yomamaJoke () {
-    fetch('https://api.yomomma.info/')
+function randomJoke () {
+    fetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=racist,sexist,explicit&type=single")
     .then(function(response){
       return response.json();
     }).then(function(data){
@@ -30,14 +30,14 @@ function yomamaJoke () {
     console.log("joke", data.joke)
 
     // Appending dynamicaly joke to card body element on HTML
-      var card = document.getElementById("card-content")
-      card.textContent = data.value;
+      var card = document.getElementById("card-content1")
+      card.textContent = data.joke;
     });
 }
     
     
 
 
-addEventListener('click')
+
 
 
