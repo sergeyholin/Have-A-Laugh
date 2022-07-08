@@ -1,5 +1,5 @@
 function yomamaJoke () {
-  fetch('https://api.yomomma.info/')
+  fetch('https://salty-mountain-68764.herokuapp.com/api.yomomma.info/')
   .then(function(response){
     return response.json();
   }).then(function(data){
@@ -7,7 +7,7 @@ function yomamaJoke () {
     console.log(data)
   
   console.log("joke", data.joke)
-    var card = document.getElementById("card-content1")
-    card.textContent = data.joke;
+    var card4 = document.getElementById("card-content4")
+    card4.textContent = data.joke;
   });
 }
