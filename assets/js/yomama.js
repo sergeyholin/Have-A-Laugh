@@ -1,3 +1,4 @@
+yomamaJoke ();
 function yomamaJoke () {
   fetch('https://salty-mountain-68764.herokuapp.com/api.yomomma.info/')
   .then(function(response){
