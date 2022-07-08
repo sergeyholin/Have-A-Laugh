@@ -18,7 +18,7 @@ fetch("https://api.chucknorris.io/jokes/random")
 });
 }
 
-function ranndomJoke () {
+function randomJoke () {
     fetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=racist,sexist,explicit&type=single")
     .then(function(response){
       return response.json();
@@ -31,13 +31,13 @@ function ranndomJoke () {
 
     // Appending dynamicaly joke to card body element on HTML
       var card = document.getElementById("card-content1")
-      card.textContent = data.value;
+      card.textContent = data.joke;
     });
 }
     
     
 
 
-addEventListener('click')
+
 
 
