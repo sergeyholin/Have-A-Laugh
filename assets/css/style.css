@@ -3,7 +3,7 @@
 /*  CC - Global color palet */
  
 :root {
-    --beige: rgb(249, 242, 237);
+    --beige: rgb(255, 232, 215);
     --blue: rgb(58, 176, 255);
     --orange: rgb(255, 181, 98);
     --red: rgb(248, 116, 116);
@@ -11,8 +11,9 @@
 
 body{
     background-color: var(--beige);
-    
+    margin: 2px;
 }
+
 
 
 
@@ -37,10 +38,16 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: black 0px 5px 5px 0px;
+    border-color: transparent;
+    box-shadow: var(--blue) 0px 0px 5px 5px;
 }
 
-#hero{
-     background-color: var(--red);
-   
+.hero{
+    background-color: var(--blue);
+    
+}
+
+.tabs{
+    font-weight: bold;
+    margin-bottom: black;
 }
