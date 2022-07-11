@@ -32,7 +32,7 @@ if (!savedJokes.includes(getJoke)) {
   $("#center").append(favoriteJoke);
 };
 // Put joke in local storage array
-localStorage.setItem("joke", JSON.stringify(savedJokes));
+localStorage.setItem("joke1", JSON.stringify(savedJokes));
 console.log(savedJokes);
 }
 
