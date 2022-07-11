@@ -42,10 +42,12 @@ body{
 }
 
 .hero{
-    background-color: var(--beige);
+    background-color: var(--red);
   
     
 }
+
+
 
 .tabs{
     font-weight: bold;

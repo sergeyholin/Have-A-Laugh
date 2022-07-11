@@ -9,14 +9,9 @@
     --red: rgb(248, 116, 116);
 }
 
-/* body{
-    background-color: var(--beige);
+.hero{
+    background-color: var(--blue);
 }
-
-
-
-
-
 
 .button:hover{
     flex: auto;
@@ -26,9 +21,7 @@
     box-shadow: none;
 }
 
-.hero {
-	background: url("/Project-1/images/chuckN.jpg") center / cover;
-} */
+
 
 
 #card-content1{
@@ -52,4 +45,35 @@
     margin: auto;
     flex-direction: column;
     justify-content: center;
+  
 } 
+
+
+#title{
+    text-align: center;
+    width: 40%;
+    flex: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+} 
+
+#card1{
+      background-color: var(--beige);
+}
+
+#card-content{
+    width:70%;
+    flex: auto;
+    margin:auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center; 
+}
+
+#blue{
+    background-color: var(--blue);
+}
