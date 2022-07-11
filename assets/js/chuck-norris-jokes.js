@@ -14,9 +14,26 @@ function chuckNorrisJoke () {
     card.textContent = data.value;
   });
   };
-    
 
+// SH made save the joke function, that saves the joke to local storage array
+// =======================================================
+var savedJokes = [];
 
-
+function saveJoke () {
+// Grab joke text
+var getJoke = $("#card-content1").text()
+console.log (getJoke)
+// if the joke in the array, don't duplicate it
+if (!savedJokes.includes(getJoke)) {
+  // save joke
+  savedJokes.push(getJoke);
+  // append joke to the page
+  var favoriteJoke = $(`<button class="btn btn-secondary btn-block" id="city-button"><strong>${getJoke}</strong></button>`); 
+  $("#center").append(favoriteJoke);
+};
+// Put joke in local storage array
+localStorage.setItem("joke", JSON.stringify(savedJokes));
+console.log(savedJokes);
+}
 
 
