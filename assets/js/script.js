@@ -26,6 +26,21 @@ console.log("loop started");
 console.log((display[i]));
 $("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
 }
+//SS created a random YoMama joke function
+yomamaJoke ();
+function yomamaJoke () {
+  fetch('https://salty-mountain-68764.herokuapp.com/api.yomomma.info/')
+  .then(function(response){
+    return response.json();
+  }).then(function(data){
+  
+    console.log(data)
+  
+  console.log("joke", data.joke)
+    var card4 = document.getElementById("card-content4")
+    card4.textContent = data.joke;
+  });
+}
     
     
 
