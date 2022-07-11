@@ -9,20 +9,14 @@
     --red: rgb(248, 116, 116);
 }
 
-body{
+/* body{
     background-color: var(--beige);
 }
 
-.card-content{
-    flex: auto;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-}
 
-.button{
-    border-color: transparent;
-}
+
+
+
 
 .button:hover{
     flex: auto;
@@ -31,3 +25,31 @@ body{
     justify-content: center;
     box-shadow: none;
 }
+
+.hero {
+	background: url("/Project-1/images/chuckN.jpg") center / cover;
+} */
+
+
+#card-content1{
+    flex: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center; 
+}
+
+
+#jokeCategory{
+   text-align: center; 
+}
+
+.button{
+    border-color: transparent;
+    width: 40%;
+    flex: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+} 

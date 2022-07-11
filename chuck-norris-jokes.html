@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--This is the Bulma cdn-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <link rel="stylesheet" href="./assets/css/chuck-norris-jokes.css" />
-    
-    <title>Text goes here</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--This is the Bulma cdn-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/chuck-norris-jokes.css" />
+
+  <title>Text goes here</title>
 </head>
 <section class="hero">
   <div class="hero-body">
@@ -19,37 +19,41 @@
       <!-- Hero subtitle -->
     </p>
   </div>
-  </section>
+</section>
 
-  <!-- SH Added tabs bar -->
-  <div class="tabs">
-    <ul>
-      <li><a href="./index.html">Main</a></li>
-      <li><a href="./chuck-norris-jokes.html">Chuck Norris Jokes</a></li>
-      <li><a href="./punny-jokes.html">Pun Jokes</a></li>
-      <li><a>Random Jokes</a></li>
-      <li><a href="./YoMama.html">YoMama Jokes</a></li>
-    </ul>
-  </div>
+<!-- SH Added tabs bar -->
+<div class="tabs">
+  <ul>
+    <li><a href="./index.html">Main</a></li>
+    <li><a href="./chuck-norris-jokes.html">Chuck Norris Jokes</a></li>
+    <li><a href="./punny-jokes.html">Pun Jokes</a></li>
+    <li><a>Random Jokes</a></li>
+    <li><a href="./YoMama.html">YoMama Jokes</a></li>
+  </ul>
+</div>
 
-<div class="columns">
-  
-  </div>
+<div id="chuck" class="columns">
+
+
   <!-- SH Changed card name -->
-  <div class="column is-full">Chuck Norris Jokes
-    <div id ="card1" class="card" >
-      <div class="card-content">
+  <div class="column is-full">
+    <div id="jokeCategory">Chuck Norris Jokes</div>
+    <div id="card1" class="card">
+      <div class="card-content is-justify-content-center">
         <!-- SH Added id for card content -->
         <div class="content" id="card-content1">
           <!-- Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. -->
         </div>
         <!-- SH Added on click to button with a function tied to it -->
-        <button class="button" onclick="chuckNorrisJoke()">Click me to get more Chuck Norisses jokes!</button>
+        <div>
+          <button class="button content is-rounded" onclick="chuckNorrisJoke()">Click me to get more Chuck Norisses
+            jokes!</button>
+        </div>
       </div>
     </div>
   </div>
-    
 
+</div>
 <script type="text/javascript" src="./assets/js/chuck-norris-jokes.js"></script>
 </body>
 
@@ -66,4 +70,5 @@
     </p>
   </div>
 </footer>
+
 </html>
