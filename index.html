@@ -16,7 +16,7 @@
 <body>
   <section class="hero">
     <div class="hero-body">
-      <p class="title">
+      <p class="title has-text-centered">
         Have a laugh!
       </p>
       <p class="subtitle">
@@ -30,25 +30,15 @@
       <li><a href="./index.html">Main</a></li>
       <li><a href="./chuck-norris-jokes.html">Chuck Norris Jokes</a></li>
       <li><a href="./punny-jokes.html">Pun Jokes</a></li>
-      <li><a href="./random-jokes.html">Random Jokes</a></li>
+      <li><a>Random Jokes</a></li>
       <li><a href="./YoMama.html">YoMama Jokes</a></li>
     </ul>
   </div>
 
   <div class="columns">
     <div class="column is-one-third">
-      <input class="input is-rounded" type="text" placeholder="Rounded input">
-      <button id="button1" class="button is-medium is-responsive">
-        Medium
-      </button>
-      <div class="select is-rounded">
-        <select>
-          <option>Rounded dropdown</option>
-          <option>With options</option>
-          <option>With options</option>
-          <option>With options</option>
-        </select>
-      </div>
+      <h6 class="subtitle is-6 has-text-centered" >Saved Jokes</h6>
+      
       <!-- LOCAL STORAGE FUNCTION -->
       <div>
         <ul id="local-storage">
@@ -57,9 +47,9 @@
       </div>
     </div>
     <!-- SH Changed card name -->
-    <div class="column">Chuck Norris Jokes
-      <div id="card1" class="card">
-        <div class="card-content">
+    <div class="column has-text-centered">Chuck Norris Jokes
+      <div id="card1" class="card " style = "height: 500px; width: 500px">
+        <div class="card-content ">
           <!-- SH Added id for card content -->
           <div class="content" id="card-content1">
             Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at
@@ -71,10 +61,8 @@
         </div>
       </div>
     </div>
-
-    <!-- AH changed card name -->
-    <div class="column">Puns
-      <div id="card2" class="card">
+    <div class="column has-text-centered">Puns
+      <div id="card2" class="card" style = "height: 500px; width: 500px">
         <div class="card-content">
           <!-- AH added id for card content -->
           <div class="content" id="card-content2">
@@ -87,36 +75,10 @@
         </div>
       </div>
     </div>
+    <!-- AH changed card name -->
+    
   </div>
-  <div class="columns">
-    <div class="column is-one-third">
-      <textarea class="textarea" placeholder="10 lines of textarea" rows="10"></textarea>
-    </div>
-    <div class="column">Auto
-      <div id="card3" class="card">
-        <div class="card-content">
-          <div class="content">
-            Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at
-            eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
-            mattis consectetur purus sit amet fermentum.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="column">YoMama Jokes
-      <div id="card4" class="card">
-        <div class="card-content">
-          <div class="content" id="card-content4">
-            Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at
-            eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
-            mattis consectetur purus sit amet fermentum.
-          </div>
-          <button class="button" onclick="yomamaJoke()">Button</button>
-        </div>
-       
-      </div>
-    </div>
-  </div>
+  
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="./assets/js/script.js"></script>
