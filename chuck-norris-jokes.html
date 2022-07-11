@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--This is the Bulma cdn-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!-- CSS Links -->
     <link rel="stylesheet" href="./assets/css/chuck-norris-jokes.css" />
     
     <title>Chuck Norris Jokes!</title>
@@ -25,27 +26,26 @@
   <div class="tabs">
     <ul>
       <li><a href="./index.html">Main</a></li>
-      <li><a href="./chuck-norris-jokes.html">Chuck Norris Jokes</a></li>
+      <li id="blue"><a href="./chuck-norris-jokes.html">Chuck Norris Jokes</a></li>
       <li><a href="./punny-jokes.html">Pun Jokes</a></li>
       <li><a href="./random-jokes.html">Random Jokes</a></li>
       <li><a href="./YoMama.html">YoMama Jokes</a></li>
     </ul>
   </div>
 
-<div class="columns">
-  
-  </div>
+
   <!-- SH Changed card name -->
-  <div class="column is-full">Chuck Norris Jokes
-    <div id ="card1" class="card" >
+  <div id ="card1" class="column">
+    <div id='card-content' class="card" >
       <div class="card-content">
         <!-- SH Added id for card content -->
-        <div class="content" id="card-content1">
+        <h3 id="title">Chuck Norris Jokes</h3>
+              <div class="content" id="card-content1">
           <!-- Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. -->
         </div>
         <!-- SH Added on click to button with a function tied to it -->
-        <button class="button" onclick="chuckNorrisJoke()">Click here to get more Chuck Noriss jokes!</button>
-        <button class="button" onclick="saveJoke()">Click here to save this joke!</button>
+        <button class="button content is-rounded" onclick="chuckNorrisJoke()">Click here to get more Chuck Noriss jokes!</button>
+        <button class="button content is-rounded" onclick="saveJoke()">Click here to save this joke!</button>
       </div>
     </div>
   </div>
