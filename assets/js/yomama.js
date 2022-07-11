@@ -12,3 +12,21 @@ function yomamaJoke () {
     card4.textContent = data.joke;
   });
 }
+var savedJokes = [];
+
+function saveJoke () {
+// Grab joke text
+var getJoke = $("#card-content4").text()
+console.log (getJoke)
+// if the joke in the array, don't duplicate it
+if (!savedJokes.includes(getJoke)) {
+  // save joke
+  savedJokes.push(getJoke);
+  // append joke to the page
+  var favoriteJoke = $(`<button class="btn btn-secondary btn-block" id="city-button"><strong>${getJoke}</strong></button>`); 
+  $("#center").append(favoriteJoke);
+};
+// Put joke in local storage array
+localStorage.setItem("joke", JSON.stringify(savedJokes));
+console.log(savedJokes);
+}
