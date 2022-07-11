@@ -10,7 +10,7 @@
 }
 
 .hero{
-    background-color: var(--blue);
+    background-color: var(--red);
 }
 
 .button:hover{
@@ -75,5 +75,9 @@
 }
 
 #blue{
-    background-color: var(--blue);
+    background-color: var(--red);
+}
+
+#blue2{
+    color:white;
 }

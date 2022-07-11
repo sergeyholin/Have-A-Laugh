@@ -24,7 +24,7 @@
 
 
 
-#card-content1{
+#card-content2{
     flex: auto;
     display: flex;
     flex-direction: column; 
@@ -76,4 +76,8 @@
 
 #blue{
     background-color: var(--blue);
+}
+
+#blue2{
+    color:white;
 }
