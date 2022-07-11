@@ -15,41 +15,44 @@ function randomJoke () {
       card.textContent = data.joke;
     });
 }
+// =============================================================================================
+// SH mage generata random number code and get random meme function
 // Generate meme function
-function randomNumber() {
-  
-}
+// global variables for generate random number code
 var min = 0
 var max = 99
-getRandomIntInclusive(min, max);
+// Generating random number 0-99
+
+// getRandomIntInclusive(min, max);
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min; // max & min both included 
 }
-console.log("random number",getRandomIntInclusive(min, max))
-var randombNumber = console.log("random number",getRandomIntInclusive(min, max))
 
-
+// Grabbing random number, and plugging it in inside pick a meme data array
+var randomNumber =  getRandomIntInclusive(min, max);
+console.log( getRandomIntInclusive(min, max))
+// Get random meme from and API meme array
+function randomMeme () {
 fetch("https://api.imgflip.com/get_memes")
-    .then(function(response){
-      return response.json();
-    }).then(function(data){
-    // Getting data from API
-      console.log(data)
-      console.log("meme", data.data.memes[1].url)
-      // var meme = data.data.meme[0].url
-      $("#meme").append((`<p style="margin-left: 250px; font-size: 25px"><strong>${data.data.memes[randombNumber].name}</strong></p>`));    
-      $("#meme").append((`<img src=${data.data.memes[randombNumber].url} alt="Meme"></img>`));    
-    
-    })
-
-
-
+  .then(function(response){
+    return response.json();
+  }).then(function(data){
+  // Getting data from API
+    console.log(data)
+    console.log("meme", data.data.memes[1].url)
+    // var meme = data.data.meme[0].url
+    $("#meme-text").append((`<p style=";margin-right: 50px font-size: 20px"><strong>${data.data.memes[randomNumber].name}</strong></p>`));    
+    $("#card-content1").append((`<img src=${data.data.memes[randomNumber].url} alt="Meme"></img>`));    
+  })
+};
+// Calling the get random meme function
+randomMeme ();
 // SH Added local storage function for appending saved jokes.
-// local storage function========================================================================================
-// Declaring global variable for local storage array
-var display = JSON.parse(localStorage.getItem("joke"))
+// local storage jokes list========================================================================================
+// Chuck Norris Fav Jokes 
+var display = JSON.parse(localStorage.getItem("joke1"))
 console.log(display);
 // Made a loop to append one joke at the time from local storage array
 for (var i = 0; i < display.length; i++) {
@@ -57,20 +60,32 @@ console.log("loop started");
 console.log((display[i]));
 $("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
 }
-//SS created a random YoMama joke function
-yomamaJoke ();
-function yomamaJoke () {
-  fetch('https://salty-mountain-68764.herokuapp.com/api.yomomma.info/')
-  .then(function(response){
-    return response.json();
-  }).then(function(data){
-  
-    console.log(data)
-  
-  console.log("joke", data.joke)
-    var card4 = document.getElementById("card-content4")
-    card4.textContent = data.joke;
-  });
+// Pun Fav Jokes
+var display = JSON.parse(localStorage.getItem("joke2"))
+console.log(display);
+// Made a loop to append one joke at the time from local storage array
+for (var i = 0; i < display.length; i++) {
+console.log("loop started");
+console.log((display[i]));
+$("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
+}
+// Random Fav Jokes
+var display = JSON.parse(localStorage.getItem("joke3"))
+console.log(display);
+// Made a loop to append one joke at the time from local storage array
+for (var i = 0; i < display.length; i++) {
+console.log("loop started");
+console.log((display[i]));
+$("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
+}
+// YoMama Fav Jokes
+var display = JSON.parse(localStorage.getItem("joke4"))
+console.log(display);
+// Made a loop to append one joke at the time from local storage array
+for (var i = 0; i < display.length; i++) {
+console.log("loop started");
+console.log((display[i]));
+$("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
 }
     
     
