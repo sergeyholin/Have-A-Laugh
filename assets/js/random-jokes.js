@@ -1,3 +1,4 @@
+
 //SH Made a random chuck joke function
 randomJoke ();
 function randomJoke () {
