@@ -1,14 +1,33 @@
-/*  CC - Global color palet */
- 
 :root {
   --beige: rgb(249, 242, 237);
   --blue: rgb(58, 176, 255);
   --orange: rgb(255, 181, 98);
   --red: rgb(248, 116, 116);
+  --green:rgb(102, 185, 102);
 }
 
+body{
+  font-family: 'Bangers', sans-serif, serif, Arial;
+  font-size: larger;
+}
+
+.font-header {
+  font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  background:#b966b9;background-color: #b966b9;background-image: linear-gradient(-20deg, rgba(102, 185, 102, 0.9) 50%, rgba(185, 102, 185, 1) 75%);background-size: 100%;background-repeat: repeat;-webkit-background-clip: text;-webkit-text-fill-color: transparent; -moz-background-clip: text;-moz-text-fill-color: transparent;
+}
+
+.border{
+  outline: auto;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding-top: 10PX;
+  padding-bottom: 10px;
+}
+
+
 .hero{
-  background-color: var(--orange);
+  background-color: var(--green);
 }
 
 .button:hover{
@@ -17,6 +36,10 @@
   flex-direction: column;
   justify-content: center;
   box-shadow: none;
+}
+
+.font-button{
+  font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
 
@@ -70,10 +93,11 @@
   flex-direction: column; 
   justify-content: center;
   text-align: center; 
+  /* background-color: rgb(255, 240, 224); */
 }
 
 #blue{
-  background-color: var(--orange);
+  background-color: var(--green);
 }
 
 #blue2{
@@ -82,5 +106,5 @@
 
 .button {
   width: fit-content;
-  background-color: lightgray;
+  background-color: rgb(147, 209, 147);
 }

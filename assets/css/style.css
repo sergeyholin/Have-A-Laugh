@@ -9,6 +9,8 @@
 body{
     background-color: #7CD1B8;
     margin: 2px;
+    font-family: 'Bangers', sans-serif, serif, Arial;
+    font-size: larger;
 }
 
 
@@ -53,4 +55,10 @@ body{
   flex-direction: column;
   justify-content: space-around;
 
+}
+
+.button {
+    border-radius: 8px;
+    width: fit-content;
+    background-color: lightgray;
 }

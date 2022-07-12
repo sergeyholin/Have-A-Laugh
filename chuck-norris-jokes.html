@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--This is the Bulma cdn-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!-- vg added font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Sriracha&display=swap" rel="stylesheet">
     <!-- CSS Links -->
     <link rel="stylesheet" href="./assets/css/chuck-norris-jokes.css" />
 
@@ -39,11 +43,11 @@
     <div id='card-content' class="card" style = "height: 400px; width: 700px;">
       <div class="card-content">
         <!-- SH Added id for card content -->
-        <h3 id="title">Chuck Norris Jokes</h3>
-        <div class="content" id="card-content1">
+        <h3 class="title font-header">Chuck Norris Jokes</h3>
+        <div class="content border" id="card-content1">
         </div>
-        <button style="margin-bottom: 15px;" onclick="chuckNorrisJoke()"  class="button content is-rounded">Click here to see another Chuck Noriss joke!</button>
-        <button style="margin-top: 15px;" onclick="saveJoke()" class="button content is-rounded">Click here to save this joke!</button>
+        <button style="margin-bottom: 15px;" onclick="chuckNorrisJoke()"  class="button content is-rounded font-button">Click here to see another Chuck Noriss joke!</button>
+        <button style="margin-top: 15px;" onclick="saveJoke()" class="button content is-rounded font-button">Click here to save this joke!</button>
         </div>
       
     </div>
