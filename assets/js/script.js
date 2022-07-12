@@ -102,6 +102,12 @@ if (display) {
     
 }
 };  
+// SH added function to clear favorite jokes to index html
+ function clearJokes() {
+  window.localStorage.clear();
+  location.reload();
+  return;
+ };
 
 
 
