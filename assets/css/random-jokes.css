@@ -109,3 +109,7 @@ body{
     width: fit-content;
     background-color: rgb(252, 193, 126);
 }
+
+.footer {
+    background-color:  rgb(255, 181, 98);
+}
