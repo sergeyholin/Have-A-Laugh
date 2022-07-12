@@ -97,7 +97,7 @@ if (display) {
   for (var j = 0; j < display.length; j++) {
     console.log("loop started");
     console.log((display[j]));
-    $("#local-storage").append((`<button style=";padding: 5px; margin-top: 10px; border-radius: 16px; background-color: #FAEA48;"><strong>${display[j]}</strong></button>`));    
+    $("#local-storage").append((`<button style=";padding: 5px; margin-top: 10px; border-radius: 16px; background-color: white;"><strong>${display[j]}</strong></button>`));    
     }
     
 }
