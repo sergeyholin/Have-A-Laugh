@@ -43,7 +43,7 @@ fetch("https://api.imgflip.com/get_memes")
     console.log(data)
     console.log("meme", data.data.memes[1].url)
     // var meme = data.data.meme[0].url
-    $("#meme-text").append((`<p style=";margin-right: 50px font-size: 20px"><strong>${data.data.memes[randomNumber].name}</strong></p>`));    
+    $("#meme-text").append((`<p style=";margin-right: 50px font-size: 20px; "><strong >${data.data.memes[randomNumber].name}</strong></p>`));    
     $("#card-content1").append((`<img src=${data.data.memes[randomNumber].url} alt="Meme"></img>`));    
   })
 };
