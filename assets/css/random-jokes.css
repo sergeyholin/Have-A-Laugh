@@ -77,11 +77,11 @@ body{
     margin: auto;
     justify-content: center;
     font-size: 30px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 } 
 
 #card1{
-      background-color: var(--beige);
+    background-image: radial-gradient(circle farthest-corner at top, rgba(255, 181, 98, 1) 15%, rgba(98, 172, 255, 1) 100%); 
 }
 
 #card-content{
@@ -92,7 +92,7 @@ body{
     flex-direction: column; 
     justify-content: center;
     text-align: center; 
-    /* background-color: rgb(255, 240, 224); */
+  
 }
 
 #blue{
