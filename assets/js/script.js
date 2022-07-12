@@ -1,4 +1,5 @@
 // SH made generate random joke function
+randomJoke();
 function randomJoke () {
     fetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=racist,sexist,explicit&type=single")
     .then(function(response){
@@ -11,7 +12,7 @@ function randomJoke () {
     console.log("joke", data.joke)
 
     // Appending dynamicaly joke to card body element on HTML
-      var card = document.getElementById("card-content1")
+      var card = document.getElementById("card-content2")
       card.textContent = data.joke;
     });
 }
@@ -43,7 +44,7 @@ fetch("https://api.imgflip.com/get_memes")
     console.log(data)
     console.log("meme", data.data.memes[1].url)
     // var meme = data.data.meme[0].url
-    $("#meme-text").append((`<p style=";margin-right: 50px font-size: 20px"><strong>${data.data.memes[randomNumber].name}</strong></p>`));    
+    $("#meme-text").append((`<p style=";margin-right: 50px font-size: 20px; color: white;"><strong style="color: white;">${data.data.memes[randomNumber].name}</strong></p>`));    
     $("#card-content1").append((`<img src=${data.data.memes[randomNumber].url} alt="Meme"></img>`));    
   })
 };
@@ -96,7 +97,7 @@ if (display) {
   for (var j = 0; j < display.length; j++) {
     console.log("loop started");
     console.log((display[j]));
-    $("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[j]}</strong></button>`));    
+    $("#local-storage").append((`<button style=";padding: 5px; background-color: #FAEA48;"><strong>${display[j]}</strong></button>`));    
     }
 }
 };  
