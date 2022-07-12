@@ -100,6 +100,7 @@ if (display) {
     $("#local-storage").append((`<button style=";padding: 5px; margin-top: 10px; border-radius: 16px; background-color: white;
     font-family: 'Bangers', sans-serif, serif, Arial;"><strong>${display[j]}</strong></button>`));    
     }
+    
 }
 };  
 // SH added function to clear favorite jokes to index html
