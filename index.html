@@ -39,56 +39,38 @@
 
   <div class="columns">
     <div class="column is-one-third">
-      <h6 class="subtitle is-6 has-text-centered" ><strong>Saved Jokes</strong> </h6>
-      
+      <p class="subtitle is-6 has-text-centered" style="font-size: 29px;">Favorites:</p>
       <!-- LOCAL STORAGE FUNCTION -->
       <div>
         <ul id="local-storage" style="margin-left: 15px;">
-
         </ul>
       </div>
     </div>
-    <!-- SH Changed card name -->
-    <div class="column has-text-centered">
+    <!-- Meme Div -->
+    <div class="column has-text-centered" style="margin-top:15px;">
+      <h2 style="font-size: 29px;">Meme of the day</h2>
       <div id="card1" class="card " style = "height: 500px; width: 500px; background-color: black; color: white;">
         <div class="card-image ">
           <!-- SH Added id for card content -->
           <div id="meme-text"></div>
           <div class="image is-4by3" id="card-content1" >
-           
-            <!-- Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at
-            eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
-            mattis consectetur purus sit amet fermentum. -->
-        
-          </div>
-          <!-- <button  onclick="randomMeme ()">Get another meme!</button> -->
-          <!-- SH Added on click to button with a function tied to it -->
-         
+        </div>
         </div>
         </div>
       </div>
-      <!-- SH added random joke function to this div-->
-      <div class="column has-text-centered">
+      <!-- Random Joke Div-->
+      <div class="column has-text-centered" style="margin-top:15px;">
+        <h2 style="font-size: 29px;">Joke of the day</h2>
         <div id="card2" class="card"  style = "height: 500px; width: 500px; background-color: black; color: white; font-size: 25px;">
           <div class="card-content">
             <!-- AH added id for card content -->
             <div class="content" id="card-content2" style = "margin-top: 175px;">
-              <!-- Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at
-              eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
-              mattis consectetur purus sit amet fermentum. -->
-             
             </div>
-            <!-- AH Added on click button with a function tied to it -->
-            <!-- <button class="button" style = "margin-top: 175px; margin-right: 100px;" onclick="randomJoke()">Button</button> -->
           </div>
         </div>
       </div>
     </div>
 
-        
-    
-    
-  </div>
   
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
