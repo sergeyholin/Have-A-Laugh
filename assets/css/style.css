@@ -60,3 +60,9 @@ body{
   justify-content: space-around;
 
 }
+
+.button {
+    border-radius: 8px;
+    width: fit-content;
+    background-color: lightgray;
+}
