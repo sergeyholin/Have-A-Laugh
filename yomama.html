@@ -32,23 +32,27 @@
   </ul>
 </div>
 
-  <!-- SH Changed card name -->
-  <div id="card1" class="columns">
-    <div class="column is-full">
-      <div id="card-content" class="card">
+   <!-- SH Changed card name -->
+   <div id ="card1" class="column">
+    <div id="card-content" class="card" style = "height: 400px; width: 700px;">
+      <div class="card-content">
 
-        <h3 id="title">YoMama Jokes</h3>
+        <h3 class="title">Random Jokes</h3>
         <!-- SH Added id for card content -->
-        <div class="content" id="card-content4">
+        <div class="content" id="card-content1">
           <!-- Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. -->
         </div>
         <!-- SH Added on click to button with a function tied to it -->
-        <button class="button content is-rounded" onclick="yomamaJoke()">Button</button>
-        <button class="button content is-rounded" onclick="saveJoke()">Click here to save this joke!</button>
+        <div style="margin-bottom: 50px;">
+          <ul >
+            <li><button style="margin-bottom: 15px;" onclick="yomamaJoke();"  class="button content is-rounded">Click here to see another Chuck Noriss joke!</button></li>
+            <li><button style="margin-top: 15px;" onclick="saveJoke()" class="button content is-rounded">Click here to save this joke!</button></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-
+</div>
 <div class="col" style="padding-right: 25px;">
   <ul id="center">
 
@@ -56,7 +60,7 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="./assets/js/yomama.js"></script>
+<script type="text/javascript" src="./assets/js/random-jokes.js"></script>
 </body>
 
 

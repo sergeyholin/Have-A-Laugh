@@ -79,3 +79,8 @@
 #blue2{
   color:white;
 }
+
+.button {
+  width: fit-content;
+  background-color: lightgray;
+}
