@@ -21,8 +21,8 @@ body{
 
 .border{
     outline: auto;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
     padding-top: 10PX;
     padding-bottom: 10px;
 }
@@ -38,6 +38,10 @@ body{
     flex-direction: column;
     justify-content: center;
     box-shadow: none;
+}
+
+.font-button{
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
 
@@ -91,6 +95,7 @@ body{
     flex-direction: column; 
     justify-content: center;
     text-align: center; 
+    /* background-color: rgb(255, 240, 224); */
 }
 
 #blue{
