@@ -52,43 +52,54 @@ randomMeme ();
 // SH Added local storage function for appending saved jokes.
 // local storage jokes list========================================================================================
 // Chuck Norris Fav Jokes 
-var display = JSON.parse(localStorage.getItem("joke1"))
+// var display = JSON.parse(localStorage.getItem("joke1"))
+// console.log(display);
+// // Made a loop to append one joke at the time from local storage array
+// for (var i = 0; i < display.length; i++) {
+// console.log("loop started");
+// console.log((display[i]));
+// $("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
+// }
+// // Pun Fav Jokes
+// var display = JSON.parse(localStorage.getItem("joke2"))
+// console.log(display);
+// // Made a loop to append one joke at the time from local storage array
+// for (var i = 0; i < display.length; i++) {
+// console.log("loop started");
+// console.log((display[i]));
+// $("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
+// }
+// // Random Fav Jokes
+// var display = JSON.parse(localStorage.getItem("joke3"))
+// console.log(display);
+// // Made a loop to append one joke at the time from local storage array
+// for (var i = 0; i < display.length; i++) {
+// console.log("loop started");
+// console.log((display[i]));
+// $("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
+// }
+// // YoMama Fav Jokes
+// var display = JSON.parse(localStorage.getItem("joke4"))
+// console.log(display);
+// // Made a loop to append one joke at the time from local storage array
+// for (var i = 0; i < display.length; i++) {
+// console.log("loop started");
+// console.log((display[i]));
+// $("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
+// }
+
+//*****MADE A NESTED LOOP TO DO THE SAME THING THAT LINES 52-89 DO BUT MORE EFFICIENTLY*****/ 
+for (var i=0; i < 4;  i++) {
+  var display = JSON.parse(localStorage.getItem(`joke${i+1}`))
 console.log(display);
-// Made a loop to append one joke at the time from local storage array
-for (var i = 0; i < display.length; i++) {
-console.log("loop started");
-console.log((display[i]));
-$("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
+if (display) {
+  for (var j = 0; j < display.length; j++) {
+    console.log("loop started");
+    console.log((display[j]));
+    $("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[j]}</strong></button>`));    
+    }
 }
-// Pun Fav Jokes
-var display = JSON.parse(localStorage.getItem("joke2"))
-console.log(display);
-// Made a loop to append one joke at the time from local storage array
-for (var i = 0; i < display.length; i++) {
-console.log("loop started");
-console.log((display[i]));
-$("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
-}
-// Random Fav Jokes
-var display = JSON.parse(localStorage.getItem("joke3"))
-console.log(display);
-// Made a loop to append one joke at the time from local storage array
-for (var i = 0; i < display.length; i++) {
-console.log("loop started");
-console.log((display[i]));
-$("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
-}
-// YoMama Fav Jokes
-var display = JSON.parse(localStorage.getItem("joke4"))
-console.log(display);
-// Made a loop to append one joke at the time from local storage array
-for (var i = 0; i < display.length; i++) {
-console.log("loop started");
-console.log((display[i]));
-$("#local-storage").append((`<button class="btn btn-secondary btn-block" id="city-button"><strong>${display[i]}</strong></button>`));    
-}
-    
-    
+};  
 
 
 
