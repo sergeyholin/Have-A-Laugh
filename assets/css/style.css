@@ -53,3 +53,10 @@ body{
     font-weight: bold;
     margin-bottom: black;
 }
+
+#local-storage {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}

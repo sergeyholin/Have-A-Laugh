@@ -15,7 +15,7 @@ function punny() {
   }
 
 // AH Creating Save The Joke Button Function
-var savedJokes = [];
+var savedJokes = JSON.parse(localStorage.getItem("joke2")) || [];
 
 function saveJoke () {
 // Grab joke text

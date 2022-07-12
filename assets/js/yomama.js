@@ -12,7 +12,7 @@ function yomamaJoke () {
     card4.textContent = data.joke;
   });
 }
-var savedJokes = [];
+var savedJokes = JSON.parse(localStorage.getItem("joke4")) || [];
 
 function saveJoke () {
 // Grab joke text

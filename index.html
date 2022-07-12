@@ -42,23 +42,23 @@
       
       <!-- LOCAL STORAGE FUNCTION -->
       <div>
-        <ul id="local-storage">
+        <ul id="local-storage" style="margin-left: 15px;">
 
         </ul>
       </div>
     </div>
     <!-- SH Changed card name -->
     <div class="column has-text-centered">
-      <div id="card1" class="card " style = "height: 500px; width: 500px">
+      <div id="card1" class="card " style = "height: 500px; width: 500px; background-color: black; color: white;">
         <div class="card-image ">
           <!-- SH Added id for card content -->
-          <h3 id="meme-text"></h3>
-          <div class="image is-4by3" id="card-content1">
+          <div id="meme-text"></div>
+          <div class="image is-4by3" id="card-content1" >
            
             <!-- Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at
             eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
             mattis consectetur purus sit amet fermentum. -->
-            
+        
           </div>
           <!-- <button  onclick="randomMeme ()">Get another meme!</button> -->
           <!-- SH Added on click to button with a function tied to it -->
@@ -66,25 +66,26 @@
         </div>
         </div>
       </div>
-
-    </div>
-
-        <!-- AH changed card name -->
-    <div class="column has-text-centered">Puns
-      <div id="card2" class="card" style = "height: 500px; width: 500px">
-        <div class="card-content">
-          <!-- AH added id for card content -->
-          <div class="content" id="card-content2">
-            Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at
-            eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
-            mattis consectetur purus sit amet fermentum.
-           
+      <!-- SH added random joke function to this div-->
+      <div class="column has-text-centered">
+        <div id="card2" class="card"  style = "height: 500px; width: 500px; background-color: black; color: white; font-size: 25px;">
+          <div class="card-content">
+            <!-- AH added id for card content -->
+            <div class="content" id="card-content2" style = "margin-top: 175px;">
+              <!-- Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at
+              eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
+              mattis consectetur purus sit amet fermentum. -->
+             
+            </div>
+            <!-- AH Added on click button with a function tied to it -->
+            <!-- <button class="button" style = "margin-top: 175px; margin-right: 100px;" onclick="randomJoke()">Button</button> -->
           </div>
-          <!-- AH Added on click button with a function tied to it -->
-          <button class="button" onclick="punny()">Button</button>
         </div>
       </div>
     </div>
+
+        
+    
     
   </div>
   

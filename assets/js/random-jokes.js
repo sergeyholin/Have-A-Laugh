@@ -20,7 +20,7 @@ function randomJoke () {
 
 // SH made save the joke function, that saves the joke to local storage array
 // =======================================================
-var savedJokes = [];
+var savedJokes = JSON.parse(localStorage.getItem("joke3")) || [];
 
 function saveJoke () {
 // Grab joke text
