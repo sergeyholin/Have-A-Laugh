@@ -99,6 +99,7 @@ if (display) {
     console.log((display[j]));
     $("#local-storage").append((`<button style=";padding: 5px; background-color: #FAEA48;"><strong>${display[j]}</strong></button>`));    
     }
+    
 }
 };  
 
