@@ -13,10 +13,7 @@ body{
 .font-header {
     font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
     font-size: 70px;
-    background: -webkit-linear-gradient(rgb(40, 185, 185), rgb(68, 196, 219), rgb(70, 58, 58));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    background:#62acff;background-color: #62acff;background-image: linear-gradient(-20deg, rgba(255, 181, 98, 0.8) 50%, rgba(98, 172, 255, 1) 100%);background-size: 100%;background-repeat: repeat;-webkit-background-clip: text;-webkit-text-fill-color: transparent; -moz-background-clip: text;-moz-text-fill-color: transparent;
 }
 
 .border{
@@ -108,5 +105,5 @@ body{
 
 .button {
     width: fit-content;
-    background-color: lightgray;
+    background-color: rgb(252, 193, 126);
 }
