@@ -28,6 +28,7 @@ body{
     justify-content: center;
     border-color: transparent;
     width: 60%;
+    
 }
 
 .button:hover{
@@ -56,8 +57,13 @@ body{
 
 }
 
+#clear {
+    font-family: 'Bangers', sans-serif, serif, Arial;
+}
+
 .button {
     border-radius: 8px;
     width: fit-content;
     background-color: lightgray;
+    
 }

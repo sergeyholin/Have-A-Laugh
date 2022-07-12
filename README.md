@@ -50,8 +50,15 @@ Content APIs Used:
 4) Imgflip API for Memes (https://imgflip.com/api)
 
 Fonts used:
+* https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Sriracha&display=swap
+
+<br>
 
 Color Palette used:
+* https://convertingcolors.com/css-gradient/view/66B966B966B9.html
+* https://convertingcolors.com/css-gradient/view/3AB0FFFF893A.html
+* https://convertingcolors.com/css-gradient/view/FFB56262ACFF.html
+* https://convertingcolors.com/css-gradient/view/F8747474F8F8.html
 
 CONTRIBUTORS TO THE PROJECT:
 
