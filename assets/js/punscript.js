@@ -18,18 +18,18 @@ function punny() {
 var savedJokes = JSON.parse(localStorage.getItem("joke2")) || [];
 
 function saveJoke () {
-// Grab joke text
+// AH Grab joke text
 var getJoke = $("#card-content2").text()
 console.log (getJoke)
-// if the joke in the array, don't duplicate it
+// AH if the joke in the array, don't duplicate it
 if (!savedJokes.includes(getJoke)) {
-  // save joke
+  // AH save joke
   savedJokes.push(getJoke);
   // append joke to the page
   // var favoriteJoke = $(`<button class="btn btn-secondary btn-block" id="city-button"><strong>${getJoke}</strong></button>`); 
   // $("#center").append(favoriteJoke);
 };
-// Put joke in local storage array
+// AH Put joke in local storage array
 localStorage.setItem("joke2", JSON.stringify(savedJokes));
 console.log(savedJokes);
 }
