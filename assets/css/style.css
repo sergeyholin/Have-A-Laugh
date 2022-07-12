@@ -12,6 +12,8 @@
 body{
     background-color: var(--beige);
     margin: 2px;
+    font-family: 'Bangers', sans-serif, serif, Arial;
+    font-size: larger;
 }
 
 
