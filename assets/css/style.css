@@ -41,6 +41,11 @@ body{
 .tabs{
     font-weight: bold;
     margin-bottom: black;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 450px;
 }
 
 #local-storage {

@@ -9,15 +9,15 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
 
   <style> 
-  .hero, footer {
+  .hero, footer, body {
     background-image: url('https://t3.ftcdn.net/jpg/02/86/18/20/360_F_286182066_yY72dajL2Vv9pYZ0LWiDiYZrMEStz0Fo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;  
   }
   
-   /* .hero, footer {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_6ONiiKcaFx-m_4xZhvdjwFKC4wbb7LMVw&usqp=CAU');
+   /* body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt3nLd7n-YkSGCSNU5w323JHJ3FMhiijRv3w&usqp=CAU');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;    
@@ -56,6 +56,7 @@
   <div class="columns">
     <div class="column is-one-third">
       <p class="subtitle is-6 has-text-centered" style="font-size: 29px; margin-top: 20px;">Favorites:</p>
+      <button onclick="clearJokes()" style="margin-left: 200px; margin-bottom: 10px;">Clear Favorites</button>
       <!-- LOCAL STORAGE FUNCTION -->
       <div>
         <ul id="local-storage" style="margin-left: 15px;">
