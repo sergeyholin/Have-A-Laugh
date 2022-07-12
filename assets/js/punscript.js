@@ -26,8 +26,8 @@ if (!savedJokes.includes(getJoke)) {
   // save joke
   savedJokes.push(getJoke);
   // append joke to the page
-  var favoriteJoke = $(`<button class="btn btn-secondary btn-block" id="city-button"><strong>${getJoke}</strong></button>`); 
-  $("#center").append(favoriteJoke);
+  // var favoriteJoke = $(`<button class="btn btn-secondary btn-block" id="city-button"><strong>${getJoke}</strong></button>`); 
+  // $("#center").append(favoriteJoke);
 };
 // Put joke in local storage array
 localStorage.setItem("joke2", JSON.stringify(savedJokes));
