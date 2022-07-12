@@ -5,6 +5,26 @@
     --red: rgb(248, 116, 116);
 }
 
+body{
+    font-family: 'Bangers', sans-serif, serif, Arial;
+    font-size: larger;
+}
+
+.font-header {
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    background:#62acff;background-color: #62acff;background-image: linear-gradient(-20deg, rgba(255, 181, 98, 0.8) 50%, rgba(98, 172, 255, 1) 100%);background-size: 100%;background-repeat: repeat;-webkit-background-clip: text;-webkit-text-fill-color: transparent; -moz-background-clip: text;-moz-text-fill-color: transparent;
+}
+
+.border{
+    outline: auto;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-top: 10PX;
+    padding-bottom: 10px;
+}
+
+
 .hero{
     background-color: var(--orange);
 }
@@ -15,6 +35,10 @@
     flex-direction: column;
     justify-content: center;
     box-shadow: none;
+}
+
+.font-button{
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
 
@@ -68,6 +92,7 @@
     flex-direction: column; 
     justify-content: center;
     text-align: center; 
+    /* background-color: rgb(255, 240, 224); */
 }
 
 #blue{
@@ -80,5 +105,5 @@
 
 .button {
     width: fit-content;
-    background-color: lightgray;
+    background-color: rgb(252, 193, 126);
 }

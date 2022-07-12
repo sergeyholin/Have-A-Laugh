@@ -8,9 +8,16 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   <!-- CSS Link -->
   <link rel="stylesheet" href="./assets/css/punstyle.css" />
+  <!-- vg added font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Sriracha&display=swap" rel="stylesheet">
 
   <title>Pun Jokes!</title>
 </head>
+
+<body>
+  
 <section class="hero">
   <div class="hero-body">
     <p class="title has-text-centered">
@@ -38,13 +45,13 @@
   <div class="column is-full">
     <div id="card-content" class="card" style = "height: 400px; width: 700px;">
      <div class="card-content">
-      <h3 id="title">Puns</h3>
+      <h3 id="title" class="title font-header">Puns</h3>
         <!-- AH Added id for card content -->
-        <div class="content" id="card-content2">
+        <div class="content border" id="card-content2">
           <!-- Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. -->
         </div>
-        <button style="margin-bottom: 15px;" onclick="punny()"  class="button content is-rounded">Click here to see another Chuck Noriss joke!</button>
-        <button style="margin-top: 15px;" onclick="saveJoke()" class="button content is-rounded">Click here to save this joke!</button>
+        <button style="margin-bottom: 15px;" onclick="punny()"  class="button content is-rounded font-button">Click here to see another Chuck Noriss joke!</button>
+        <button style="margin-top: 15px;" onclick="saveJoke()" class="button content is-rounded font-button">Click here to save this joke!</button>
         
       </div>
     </div>
