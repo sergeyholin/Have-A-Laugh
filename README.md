@@ -1,13 +1,13 @@
 # Have-A-Laugh
 Project 1, Group 8
 
-GitHub Repo Link: https://github.com/sergeyholin/Project-1
+#### GitHub Repo Link: https://github.com/sergeyholin/Project-1
 
-GitHub Live Deployment Link: 
+#### GitHub Live Deployment Link: 
 
-ABOUT THE APP: Have-A-Laugh is the final destination for all your humor needs! It's a simple app that that contains several humor categories to brighten your day. It has memes, random jokes, pun jokes, yomama jokes, and of course, Chuck Norris jokes. Have a need to brighten your mood? Stop on by at Have-A-Laugh, good times guaranteed!
+ ABOUT THE APP: Have-A-Laugh is the final destination for all your humor needs! It's a simple app that that contains several humor categories to brighten your day. It has memes, random jokes, pun jokes, yomama jokes, and of course, Chuck Norris jokes. Have a need to brighten your mood? Stop on by at Have-A-Laugh, good times guaranteed!
 
-ACCEPTANCE CRITERIA:
+#### ACCEPTANCE CRITERIA:
 
 * Use a CSS framework other than Bootstrap.
 
@@ -29,19 +29,19 @@ ACCEPTANCE CRITERIA:
 
 * Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-ADDITIONAL CRITERIA:
+#### ADDITIONAL CRITERIA:
 
 Application deployed at live URL.
 
-TECHNOLOGIES USED:
+### TECHNOLOGIES USED:
 
 Front end CSS Framework: Bulma (https://bulma.io/)
 
 JS Library: jQuery (https://api.jquery.com/)
 
-Content APIs Used:
+###### Content APIs Used:
 
-1)  Chuck Norris Jokes API (https://api.chucknorris.io/)
+1) Chuck Norris Jokes API (https://api.chucknorris.io/)
 
 2) Joke API (https://v2.jokeapi.dev/)
 
@@ -49,27 +49,32 @@ Content APIs Used:
 
 4) Imgflip API for Memes (https://imgflip.com/api)
 
-Fonts used:
+
+###### Fonts used:
 * https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Sriracha&display=swap
 
-<br>
 
-Color Palette used:
+###### Color Palette used:
 * https://convertingcolors.com/css-gradient/view/66B966B966B9.html
 * https://convertingcolors.com/css-gradient/view/3AB0FFFF893A.html
 * https://convertingcolors.com/css-gradient/view/FFB56262ACFF.html
 * https://convertingcolors.com/css-gradient/view/F8747474F8F8.html
 
-CONTRIBUTORS TO THE PROJECT:
+### CONTRIBUTORS TO THE PROJECT:
 
-1) Aaron Hernandez: https://github.com/aaronhdm
+##### 1) Aaron Hernandez: https://github.com/aaronhdm
 
-2)Cade Coleman: https://github.com/cade-coleman
+##### 2) Cade Coleman: https://github.com/cade-coleman
 
-3)Savvas Sidiropoulos: https://github.com/Sidiro23
+##### 3) Savvas Sidiropoulos: https://github.com/Sidiro23
 
-4)Victor Gutierrez: https://github.com/VictorGutierrez25
+##### 4) Victor Gutierrez: https://github.com/VictorGutierrez25
 
-5)Sergey Holin: https://github.com/sergeyholin
+##### 5) Sergey Holin: https://github.com/sergeyholin
 
-SCREENSHOT:
+### SCREENSHOTS
+
+##### Main Page
+
+The main page of the website has one section where the user can see his favorites jokes. On the right side of the pahe the user will get the Meme and the Joke of the day. From the four tabs on the Nav bar you can navigate to the category based pages of the website.
+
