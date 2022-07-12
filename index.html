@@ -11,6 +11,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Sriracha&display=swap" rel="stylesheet">
 
+  <style> 
+  .hero, footer {
+    background-image: url('https://t3.ftcdn.net/jpg/02/86/18/20/360_F_286182066_yY72dajL2Vv9pYZ0LWiDiYZrMEStz0Fo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+  }
+  body {
+    background-image: radial-gradient(circle farthest-corner at center, rgba(255, 215, 108, 1) 15%, rgba(255, 208, 83, 1) 35%, rgba(255, 201, 57, 1) 50%, rgba(255, 194, 32, 1) 65%, rgba(255, 187, 6, 1) 85%, rgba(255, 186, 0, 1) 100%);
+  }
+  .tabs{
+    background-color: #FFC04D;
+  }
+  </style>
+
   <title>Have a laugh!</title>
 </head>
 
@@ -44,17 +59,17 @@
     <div class="column is-one-third">
       <p class="subtitle is-6 has-text-centered " style="font-size: 29px;"></p>
       <p class="subtitle is-6 has-text-centered" style="font-size: 29px;">Favorites:</p>
-      <button onclick="clearJokes()" style="margin-left: 200px; margin-bottom: 10px;">Clear Favorites</button>
-      <!-- LOCAL STORAGE FUNCTION -->
+      <button onclick="clearJokes()" style="margin-left: 200px; margin-bottom: 10px; padding: 5px; background-color: white;">Clear Favorites</button>
+      <!-- Favorites Div -->
       <div>
-        <ul id="local-storage" style="margin-left: 15px;">
+        <ul id="local-storage" style="margin-left: 10px;">
         </ul>
       </div>
     </div>
     <!-- Meme Div -->
     <div class="column has-text-centered" style="margin-top:15px;">
       <h2 style="font-size: 29px;">Meme of the day</h2>
-      <div id="card1" class="card " style = "height: 500px; width: 500px; background-color: black; color: white;">
+      <div id="card1" class="card " style = "height: 500px; width: 500px; background-color: black; color: white; font-size: 25px;">
         <div class="card-image ">
           <!-- SH Added id for card content -->
           <div id="meme-text"></div>
@@ -75,8 +90,6 @@
         </div>
       </div>
     </div>
-
-  
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="./assets/js/script.js"></script>

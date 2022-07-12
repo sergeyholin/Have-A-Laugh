@@ -1,6 +1,3 @@
-
-
-/*  CC - Global color palet */
  
 :root {
     --beige: rgb(255, 232, 215);
@@ -10,7 +7,7 @@
 }
 
 body{
-    background-color: var(--beige);
+    background-color: #7CD1B8;
     margin: 2px;
     font-family: 'Bangers', sans-serif, serif, Arial;
     font-size: larger;
@@ -43,17 +40,14 @@ body{
     box-shadow: var(--blue) 0px 0px 5px 5px;
 }
 
-.hero{
-    background-color: var(--orange);
-  
-    
-}
-
-
-
 .tabs{
     font-weight: bold;
     margin-bottom: black;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 #local-storage {
@@ -61,4 +55,10 @@ body{
   flex-direction: column;
   justify-content: space-around;
 
+}
+
+.button {
+    border-radius: 8px;
+    width: fit-content;
+    background-color: lightgray;
 }
