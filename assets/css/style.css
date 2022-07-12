@@ -19,6 +19,7 @@ body{
     display: flex;
     flex-direction: column; 
     justify-content: center; 
+    
 }
 
 .button{
@@ -47,6 +48,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     
 }
 
