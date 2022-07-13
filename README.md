@@ -3,7 +3,7 @@ Project 1, Group 8
 
 #### GitHub Repo Link: https://github.com/sergeyholin/Project-1
 
-#### GitHub Live Deployment Link: 
+#### GitHub Live Deployment Link: https://sergeyholin.github.io/Have-A-Laugh/
 
  ABOUT THE APP: Have-A-Laugh is the final destination for all your humor needs! It's a simple app that that contains several humor categories to brighten your day. It has memes, random jokes, pun jokes, yomama jokes, and of course, Chuck Norris jokes. Have a need to brighten your mood? Stop on by at Have-A-Laugh, good times guaranteed!
 
@@ -78,3 +78,18 @@ JS Library: jQuery (https://api.jquery.com/)
 
 The main page of the website has one section where the user can see his favorites jokes. On the right side of the pahe the user will get the Meme and the Joke of the day. From the four tabs on the Nav bar you can navigate to the category based pages of the website.
 
+![Web capture_12-7-2022_184855_](https://user-images.githubusercontent.com/106550353/178617882-28180434-9ab0-4f7f-b0fd-98b7712c2a33.jpeg)
+##### Tabs
+In each of the category tabs you can click on the top button to get your joke and you can save your joke in your Favorites by clicking the save button.
+
+###### Chuck Norris Jokes
+![Web capture_12-7-2022_185052_](https://user-images.githubusercontent.com/106550353/178617899-d9f22e3d-2943-43cd-bb76-1f3021e72a4d.jpeg)
+
+###### Pun Jokes
+![Web capture_12-7-2022_18519_](https://user-images.githubusercontent.com/106550353/178617889-924bf3ef-c925-4412-bb28-8ecc297cb168.jpeg)
+
+###### Random Jokes
+![Web capture_12-7-2022_185125_](https://user-images.githubusercontent.com/106550353/178617905-9101a494-9bae-4056-b5e8-304c9b675cf0.jpeg)
+
+###### YoMomma Jokes
+![Web capture_12-7-2022_185143_](https://user-images.githubusercontent.com/106550353/178617910-3843b321-3ea5-4ae9-b855-3113adef5211.jpeg)
