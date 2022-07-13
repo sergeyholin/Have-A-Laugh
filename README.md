@@ -78,7 +78,7 @@ JS Library: jQuery (https://api.jquery.com/)
 
 The main page of the website has one section where the user can see his favorites jokes. On the right side of the pahe the user will get the Meme and the Joke of the day. From the four tabs on the Nav bar you can navigate to the category based pages of the website.
 
-![Web capture_12-7-2022_184855_](https://user-images.githubusercontent.com/106550353/178617882-28180434-9ab0-4f7f-b0fd-98b7712c2a33.jpeg)
+![Web capture_12-7-2022_191220_sergeyholin github io](https://user-images.githubusercontent.com/106550353/178621326-5b9449d6-f362-42c9-a679-f1806af4260c.jpeg)
 ##### Tabs
 In each of the category tabs you can click on the top button to get your joke and you can save your joke in your Favorites by clicking the save button.
 
